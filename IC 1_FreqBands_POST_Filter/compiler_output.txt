@@ -7,42 +7,47 @@ Build date = 10/28/2019 at 4:52 AM
 (Note: Estimates are based on a 48 kHz sample rate)
 
 Instructions used:
-419	(out of a possible 1024 )
+456	(out of a possible 1024 )
 Modulo Data RAM used (X Memory):
-218	(out of a possible 4096 )
+228	(out of a possible 4096 )
 Non Modulo Data RAM used (X Memory):
 4	(out of a possible 4096 )
 Parameter RAM used (Y Memory):
-84	(out of a possible 1024 )
+96	(out of a possible 1024 )
 
 Instance                      		Mips	Inst	Data	Coeff	Other
                               			(max)
-                              		176	176	100	18
+                              		188	188	103	23
 Beginning                     		19	19	0	1
-Gen Filter1_8                 		18	18	18	5
 Gen Filter1_7                 		18	18	18	5
-Gen Filter1_2                 		18	18	18	5
+Gen Filter1_8                 		18	18	18	5
 Gen Filter1_3                 		18	18	18	5
+Gen Filter1_2                 		18	18	18	5
 Gen Filter1_9                 		18	18	12	5
 Gen Filter1_4                 		18	18	12	5
 Gen Filter1_5                 		18	18	12	5
 SafeLoadCode                  		15	15	0	7
 Single 1                      		14	14	6	6
-Nx2-1                         		12	12	2	5
+Lookup Table1                 		14	14	2	4
 Nx2-1_3                       		12	12	2	5
+Nx2-1                         		12	12	2	5
 Nx2-1_2                       		12	12	2	5
 S Splitter1_2                 		10	10	0	1
 S Splitter1                   		10	10	0	1
+X1                            		5	5	2	0
 End                           		5	5	0	0
 Input1                        		4	4	2	0
+DC1_4                         		2	2	1	1
+DC1_3                         		2	2	1	1
+DC1                           		2	2	1	1
 Output2                       		2	2	0	0
 Output1                       		2	2	0	0
 
 Subroutines called:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Total                      			419	419	222	84
+Total                      			456	456	232	96
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-(%)                          			41%	41%	5%	8%
+(%)                          			45%	45%	6%	9%
 
 Files written:  
 program_data.dat - load file for downloading code using ADI loader
